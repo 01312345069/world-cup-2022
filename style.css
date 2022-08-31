@@ -1,0 +1,127 @@
+/* fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles  utilities */
+body,
+html {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    height: 100%;
+
+}
+
+
+/* 1st hulf section  */
+.top-section {
+    padding-top: 150px;
+    width: 100%;
+    background-color: #161616;
+    height: 100%;
+
+    color: white;
+    display: flex;
+    border-radius: 17px;
+    align-items: ;
+}
+
+.left-section {
+    padding-left: 80px;
+    width: 100%;
+}
+
+.left-section h1 {
+    font-size: 40px;
+}
+
+.left-section button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.right-section {
+    padding-left: 50px;
+    width: 100%;
+}
+
+.middle-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-area {
+    height: 250px;
+    width: 20%;
+    background-color: #161616;
+}
+
+.left-area button {
+    display: block;
+    margin-top: 30px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    width: 200px;
+    margin-left: 50px;
+}
+
+#premioum-btn {
+    background-color: red;
+}
+
+.right-area {
+    width: 75%;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.blog-details {
+    height: 340px;
+    width: 28%;
+    margin: 2%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.timing-area {
+    /* display: flex; */
+}
+
+.timing-area img {
+    height: 20px;
+    width: 20px;
+}
+
+/* footer section  */
+.footer-area {
+    width: 100%;
+    height: 360px;
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.goal-area {
+    border-bottom: 1px solid;
+    border-color: grey;
+}
+
+.link-area {
+    margin-top: 70px;
+}
+
+.link-area a {
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+}
+
+.blog-details {}
